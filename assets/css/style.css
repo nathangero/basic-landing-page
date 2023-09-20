@@ -17,6 +17,11 @@ img {
     margin: 0 auto;
 }
 
+ul {
+    display: inline;
+    background-color: lemonchiffon;
+}
+
 form {
     display: flex;
     flex-direction: column;
