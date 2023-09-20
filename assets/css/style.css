@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: lemonchiffon;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,9 +23,16 @@ img {
     margin: 0 auto;
 }
 
+nav {
+    display: relative;
+    background-color: greenyellow;
+}
+
+
 ul {
-    display: inline;
-    background-color: lemonchiffon;
+    /* display: inline; */
+    /* background-color: lemonchiffon; */
+    list-style: none;
 }
 
 form {
@@ -30,7 +43,9 @@ form {
     margin-top: 0em;
     padding: 20px;
     background-color: green;
-    margin: 0 auto;
+    margin: 10px auto;
+
+    border-radius: 10px;
 }
 
 form input {
@@ -38,6 +53,7 @@ form input {
 }
 
 footer {
+
     background-color: lightgray;
     width: 100%;
 }
