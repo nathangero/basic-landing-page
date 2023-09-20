@@ -1,4 +1,4 @@
-* {
+body {
     background-color: lemonchiffon;
 }
 
@@ -18,8 +18,10 @@ img {
 
 form {
     display: block;
+    margin-top: 0em;
+    background-color: green;
 }
 
 footer {
-    background-color: aliceblue;
+    background-color: lightgray;
 }
